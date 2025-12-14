@@ -176,7 +176,7 @@ pre { white-space:pre-wrap; }
 }
 
   display:inline-block;
-  margin-top:4px;
+  margin-top:18px;
   padding:3px 8px;
   border-radius:999px;
   border:1px solid rgba(255,255,255,0.18);
@@ -192,6 +192,10 @@ pre { white-space:pre-wrap; }
   <div id="titleBar">
     <div class="t1">HALLO</div>
     <div class="t2">Myoelectric prosthesis training prototype: body alignment + slow voice/manual control.</div>
+
+<div id="menuWrapper">
+    <button id="menuToggle">☰</button>
+    <div id="menuPanel" class="hidden">
     <div id="pill">Ready</div>
   </div>
 
@@ -199,10 +203,7 @@ pre { white-space:pre-wrap; }
   <canvas id="overlay"></canvas>
 
   <!-- MENU -->
-  <div id="menuWrapper">
-    <button id="menuToggle">☰</button>
-    <div id="menuPanel" class="hidden">
-
+  
       <div class="menu-section">
         <h3>Camera</h3>
         <select id="cameraFacing">
